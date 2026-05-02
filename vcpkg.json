@@ -6,7 +6,9 @@
   "license": "MIT",
   "dependencies": [
     "clib-util",
+    "directxtk",
     "frozen",
+    "rapidcsv",
     "rsm-binary-io",
     "unordered-dense",
     "spdlog",

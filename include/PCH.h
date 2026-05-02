@@ -1,6 +1,11 @@
 #pragma once
 
 #define WIN32_LEAN_AND_MEAN
+#ifndef SKYRIMVR
+#	define NOWINMESSAGES
+#	define NOUSER
+#	define NOMSG
+#endif
 
 #define NOMB
 #define NOMINMAX
